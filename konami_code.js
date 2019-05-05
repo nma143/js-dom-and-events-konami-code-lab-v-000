@@ -7,7 +7,7 @@ function init() {
   // Write your JavaScript code inside the init() function
 
   let body = document.body;
-  body.addEventListener('click', onKeyDownHandler);
+  body.addEventListener('keydown', onKeyDownHandler);
 
 }
 
