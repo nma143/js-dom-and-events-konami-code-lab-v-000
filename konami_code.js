@@ -28,7 +28,6 @@ function onKeyDownHandler(e)
   }
   else
   {
-    alert("Wrong");
     index = 0;
   }
 }
