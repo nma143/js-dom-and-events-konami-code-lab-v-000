@@ -13,6 +13,7 @@ function init() {
 
 function onKeyDownHandler(e)
 {
+  alert("Hey");
   const key = parseInt(e.detail || e.which);
 
   if (key === code[index])
