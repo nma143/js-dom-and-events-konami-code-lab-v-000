@@ -5,7 +5,7 @@ let index = 0;
 function init() {
   // Write your JavaScript code inside the init() function
 
-  let body = document.body.addEventListener('click', onKeyDownHandler;
+  let body = document.body.addEventListener('click', onKeyDownHandler);
 
   function onKeyDownHandler(e) {
     const key = parseInt(e.detail || e.which);
