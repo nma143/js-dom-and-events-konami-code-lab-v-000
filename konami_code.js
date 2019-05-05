@@ -15,7 +15,6 @@ function onKeyDownHandler(e)
 {
   const key = parseInt(e.which);
 
-  alert(e.which)
   if (key === code[index])
   {
     index++;
