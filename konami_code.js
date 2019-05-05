@@ -8,27 +8,27 @@ function init() {
   let body = document.body;
   body.addEventListener('keydown', onKeyDownHandler);
 
-  function onKeyDownHandler(e)
+}
+
+function onKeyDownHandler(e)
+{
+  const key = parseInt(e.which || e.detail);
+
+  if (key === code[index])
   {
-    const key = parseInt(e.which || e.detail);
+    index++;
 
-    if (key === code[index])
+    if (index === code.length)
     {
-      index++;
+      alert("Hurray!");
 
-      if (index === code.length)
-      {
-        alert("Hurray!");
-
-        index = 0;
-      }
-    }
-    else
-    {
       index = 0;
     }
-  };
-
+  }
+  else
+  {
+    index = 0;
+  }
 }
 
 
